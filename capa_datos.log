@@ -1,0 +1,593 @@
+02:22:15 PM: DEBUG [conexion.py:24] Conexión exitosa: <connection object at 0x03A213B8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+02:22:15 PM: DEBUG [conexion.py:37] Se abrio el cursor con éxito: <cursor object at 0x03A40028; closed: 0>
+02:22:15 PM: INFO [conexion.py:60] <cursor object at 0x03A40028; closed: 0>
+02:22:15 PM: DEBUG [conexion.py:57] Se han cerrado los objetos de conexión y cursor
+02:51:30 PM: DEBUG [persona.py:20] Id Persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+02:51:37 PM: DEBUG [persona.py:20] Id Persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+02:53:10 PM: DEBUG [persona.py:20] Id Persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+02:53:10 PM: DEBUG [persona.py:23] Id Persona: None, Nombre: Karla, Apellido: Gomez, Email: kgomez@mail.com
+02:54:30 PM: DEBUG [persona.py:20] Id Persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+02:55:50 PM: DEBUG [persona.py:20] Id Persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+02:55:50 PM: DEBUG [persona.py:23] Id Persona: None, Nombre: Karla, Apellido: Gomez, Email: kgomez@mail.com
+02:58:00 PM: DEBUG [persona.py:20] Id Persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+02:58:00 PM: DEBUG [persona.py:23] Id Persona: None, Nombre: Karla, Apellido: Gomez, Email: kgomez@mail.com
+02:58:00 PM: DEBUG [persona.py:26] Id Persona: 3, Nombre: None, Apellido: None, Email: None
+03:20:27 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x035BF3B8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:20:27 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x035CE428; closed: 0>
+03:20:27 PM: DEBUG [persona_dao.py:15] b'SELECT * FROM persona ORDER BY id_persona'
+03:21:11 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x03B623B8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:21:11 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x03B81428; closed: 0>
+03:21:11 PM: DEBUG [persona_dao.py:15] b'SELECT * FROM persona ORDER BY id_persona'
+03:21:11 PM: DEBUG [persona_dao.py:27] Id Persona: 1, Nombre: Juan1, Apellido: Perez2, Email: jperez3@mail.com
+03:21:11 PM: DEBUG [persona_dao.py:27] Id Persona: 2, Nombre: Karla1, Apellido: Gomez2, Email: kgomez3@mail.com
+03:21:11 PM: DEBUG [persona_dao.py:27] Id Persona: 4, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+03:21:11 PM: DEBUG [persona_dao.py:27] Id Persona: 6, Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com
+03:21:17 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x03DC23B8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:21:17 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x03DE1428; closed: 0>
+03:21:17 PM: DEBUG [persona_dao.py:15] b'SELECT * FROM persona ORDER BY id_persona'
+03:21:17 PM: DEBUG [persona_dao.py:27] Id Persona: 1, Nombre: Juan1, Apellido: Perez2, Email: jperez3@mail.com
+03:21:17 PM: DEBUG [persona_dao.py:27] Id Persona: 2, Nombre: Karla1, Apellido: Gomez2, Email: kgomez3@mail.com
+03:21:17 PM: DEBUG [persona_dao.py:27] Id Persona: 4, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+03:21:17 PM: DEBUG [persona_dao.py:27] Id Persona: 6, Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com
+03:22:38 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x037D23B8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:22:38 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x037E1428; closed: 0>
+03:22:38 PM: DEBUG [persona_dao.py:15] b'SELECT * FROM persona ORDER BY id_persona'
+03:22:38 PM: DEBUG [persona_dao.py:27] Id Persona: 1, Nombre: Juan1, Apellido: Perez2, Email: jperez3@mail.com
+03:22:38 PM: DEBUG [persona_dao.py:27] Id Persona: 2, Nombre: Karla1, Apellido: Gomez2, Email: kgomez3@mail.com
+03:22:38 PM: DEBUG [persona_dao.py:27] Id Persona: 4, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+03:22:38 PM: DEBUG [persona_dao.py:27] Id Persona: 6, Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com
+03:22:43 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x03BA23B8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:22:43 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x03BC1428; closed: 0>
+03:22:43 PM: DEBUG [persona_dao.py:15] b'SELECT * FROM persona ORDER BY id_persona'
+03:22:43 PM: DEBUG [persona_dao.py:27] Id Persona: 1, Nombre: Juan1, Apellido: Perez2, Email: jperez3@mail.com
+03:22:43 PM: DEBUG [persona_dao.py:27] Id Persona: 2, Nombre: Karla1, Apellido: Gomez2, Email: kgomez3@mail.com
+03:22:43 PM: DEBUG [persona_dao.py:27] Id Persona: 4, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+03:22:43 PM: DEBUG [persona_dao.py:27] Id Persona: 6, Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com
+03:23:54 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x033A43B8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:23:54 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x033AB4A8; closed: 0>
+03:23:54 PM: DEBUG [persona_dao.py:15] b'SELECT * FROM persona ORDER BY id_persona'
+03:23:54 PM: DEBUG [persona_dao.py:27] Id Persona: 1, Nombre: Juan1, Apellido: Perez2, Email: jperez3@mail.com
+03:23:54 PM: DEBUG [persona_dao.py:28] 1
+03:23:54 PM: DEBUG [persona_dao.py:27] Id Persona: 2, Nombre: Karla1, Apellido: Gomez2, Email: kgomez3@mail.com
+03:23:54 PM: DEBUG [persona_dao.py:28] 2
+03:23:54 PM: DEBUG [persona_dao.py:27] Id Persona: 4, Nombre: Carlos, Apellido: Lara, Email: clara@mail.com
+03:23:54 PM: DEBUG [persona_dao.py:28] 4
+03:23:54 PM: DEBUG [persona_dao.py:27] Id Persona: 6, Nombre: Maria, Apellido: Esparza, Email: mesparza@mail.com
+03:23:54 PM: DEBUG [persona_dao.py:28] 6
+05:30:02 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x03DD33B8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:30:02 PM: ERROR [persona_dao.py:39] Excepción al insertar persona:'psycopg2.extensions.connection' object has no attribute 'obtenerCursor'
+05:30:02 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+05:30:02 PM: DEBUG [persona_dao.py:52] Personas insertados: None
+05:31:30 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x032E33B8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:31:30 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x03314028; closed: 0>
+05:31:30 PM: DEBUG [persona_dao.py:31] b'INSERT INTO persona(nombre, apellido, email) VALUES(%s,%s,%s)'
+05:31:30 PM: DEBUG [persona_dao.py:32] Persona a insertar: Id Persona: None, Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com
+05:31:30 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+05:31:30 PM: DEBUG [persona_dao.py:52] Personas insertados: 1
+05:32:18 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x034743B8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:32:18 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x03494028; closed: 0>
+05:32:18 PM: DEBUG [persona_dao.py:31] b'INSERT INTO persona(nombre, apellido, email) VALUES(%s,%s,%s)'
+05:32:18 PM: DEBUG [persona_dao.py:32] Persona a insertar: Id Persona: None, Nombre: Pedro, Apellido: Najera, Email: pnajera@mail.com
+05:32:18 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+05:32:18 PM: DEBUG [persona_dao.py:52] Personas insertados: 1
+05:53:38 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x03A733B8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:53:38 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x03A94028; closed: 0>
+05:53:38 PM: DEBUG [persona_dao.py:50] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE id_persona=%s'
+05:53:38 PM: DEBUG [persona_dao.py:51] Persona a actualizar: Id Persona: 1, Nombre: Juan, Apellido: Perez, Email: jperez@mail.com
+05:53:38 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+05:53:39 PM: DEBUG [persona_dao.py:93] Personas actualizadas: 1
+05:53:48 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x031D33B8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:53:48 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x031F4028; closed: 0>
+05:53:48 PM: DEBUG [persona_dao.py:50] b'UPDATE persona SET nombre=%s, apellido=%s, email=%s WHERE id_persona=%s'
+05:53:48 PM: DEBUG [persona_dao.py:51] Persona a actualizar: Id Persona: 1, Nombre: Juan, Apellido: Perez, Email: jperez@mail.com
+05:53:48 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+05:53:48 PM: DEBUG [persona_dao.py:93] Personas actualizadas: 1
+05:56:43 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x032543B8; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+05:56:43 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x03274028; closed: 0>
+05:56:43 PM: DEBUG [persona_dao.py:67] b'DELETE FROM persona WHERE id_persona = %s'
+05:56:43 PM: DEBUG [persona_dao.py:68] Persona a eliminar: Id Persona: 7, Nombre: None, Apellido: None, Email: None
+05:56:43 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+05:56:43 PM: DEBUG [persona_dao.py:98] Personas eliminadas: 1
+12:31:49 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x00000209CBB30BF0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+12:31:49 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x00000209CBF0BF20; closed: 0>
+12:31:49 PM: INFO [conexion.py:59] <cursor object at 0x00000209CBF0BF20; closed: 0>
+12:31:49 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+12:33:55 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000002820E891AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+12:33:55 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000002820EC48F20; closed: 0>
+12:33:55 PM: DEBUG [persona_dao.py:18] b'SELECT * FROM public.dbcrud ORDER BY id_persona'
+12:33:56 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Jean, Nombre: Lara, Apellido: jeanlara@outlook.com, Email: 10
+12:33:56 PM: DEBUG [persona_dao.py:83] Jean
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Fernando, Nombre: Francisco, Apellido: Valencia, Email: 11
+12:33:56 PM: DEBUG [persona_dao.py:83] Fernando
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Miguel, Nombre: Perezoso2, Apellido: jperez2@mail.com, Email: 18
+12:33:56 PM: DEBUG [persona_dao.py:83] Miguel
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Yesica, Nombre: Cantu, Apellido: mcantu@mail.com, Email: 19
+12:33:56 PM: DEBUG [persona_dao.py:83] Yesica
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Nayer, Nombre: Gonzales, Apellido: mgonzales@mail.com, Email: 21
+12:33:56 PM: DEBUG [persona_dao.py:83] Nayer
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Sebastian, Nombre: Najera, Apellido: pnajera@mail.com, Email: 25
+12:33:56 PM: DEBUG [persona_dao.py:83] Sebastian
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 27
+12:33:56 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 28
+12:33:56 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 29
+12:33:56 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 30
+12:33:56 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 31
+12:33:56 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 32
+12:33:56 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 33
+12:33:56 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 34
+12:33:56 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 35
+12:33:56 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:56 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 36
+12:33:56 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:57 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 37
+12:33:57 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:57 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 38
+12:33:57 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:57 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 39
+12:33:57 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:57 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 40
+12:33:57 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:57 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 41
+12:33:57 PM: DEBUG [persona_dao.py:83] Lorena
+12:33:57 PM: DEBUG [persona_dao.py:67] b'DELETE FROM persona WHERE id_persona = %s'
+12:33:57 PM: DEBUG [persona_dao.py:68] Persona a eliminar: Id Persona: 7, Nombre: None, Apellido: None, Email: None
+12:33:57 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+12:37:32 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x0000018F327E6AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+12:37:32 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x0000018F329B8E40; closed: 0>
+12:37:33 PM: DEBUG [persona_dao.py:18] b'SELECT * FROM public.dbcrud ORDER BY id_persona'
+12:37:33 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Jean, Nombre: Lara, Apellido: jeanlara@outlook.com, Email: 10
+12:37:33 PM: DEBUG [persona_dao.py:83] Jean
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Fernando, Nombre: Francisco, Apellido: Valencia, Email: 11
+12:37:33 PM: DEBUG [persona_dao.py:83] Fernando
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Miguel, Nombre: Perezoso2, Apellido: jperez2@mail.com, Email: 18
+12:37:33 PM: DEBUG [persona_dao.py:83] Miguel
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Yesica, Nombre: Cantu, Apellido: mcantu@mail.com, Email: 19
+12:37:33 PM: DEBUG [persona_dao.py:83] Yesica
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Nayer, Nombre: Gonzales, Apellido: mgonzales@mail.com, Email: 21
+12:37:33 PM: DEBUG [persona_dao.py:83] Nayer
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Sebastian, Nombre: Najera, Apellido: pnajera@mail.com, Email: 25
+12:37:33 PM: DEBUG [persona_dao.py:83] Sebastian
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 27
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 28
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 29
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 30
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 31
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 32
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 33
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 34
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 35
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 36
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 37
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 38
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 39
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 40
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 41
+12:37:33 PM: DEBUG [persona_dao.py:83] Lorena
+12:37:33 PM: DEBUG [persona_dao.py:33] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
+12:37:33 PM: DEBUG [persona_dao.py:34] Persona a insertar: Id Persona: None, Nombre: Maria, Apellido: Elena, Email: nena.22@mail.com
+12:37:33 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+12:39:47 PM: DEBUG [persona.py:45] Id Persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+12:39:47 PM: DEBUG [persona.py:49] Id Persona: None, Nombre: Maria, Apellido: Elena, Email: Mebolanos@mail.com
+12:39:47 PM: DEBUG [persona.py:52] Id Persona: 3, Nombre: None, Apellido: None, Email: None
+12:41:00 PM: DEBUG [persona.py:45] Id Persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+12:41:00 PM: DEBUG [persona.py:49] Id Persona: None, Nombre: Maria, Apellido: Elena, Email: Mebolanos@mail.com
+12:41:00 PM: DEBUG [persona.py:52] Id Persona: 10, Nombre: None, Apellido: None, Email: None
+12:43:34 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000002B29F811AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+12:43:34 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000002B29FC07F20; closed: 0>
+12:43:34 PM: DEBUG [persona_dao.py:18] b'SELECT * FROM public.dbcrud ORDER BY id_persona'
+12:43:34 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Jean, Nombre: Lara, Apellido: jeanlara@outlook.com, Email: 10
+12:43:34 PM: DEBUG [persona_dao.py:83] Jean
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Fernando, Nombre: Francisco, Apellido: Valencia, Email: 11
+12:43:34 PM: DEBUG [persona_dao.py:83] Fernando
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Miguel, Nombre: Perezoso2, Apellido: jperez2@mail.com, Email: 18
+12:43:34 PM: DEBUG [persona_dao.py:83] Miguel
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Yesica, Nombre: Cantu, Apellido: mcantu@mail.com, Email: 19
+12:43:34 PM: DEBUG [persona_dao.py:83] Yesica
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Nayer, Nombre: Gonzales, Apellido: mgonzales@mail.com, Email: 21
+12:43:34 PM: DEBUG [persona_dao.py:83] Nayer
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Sebastian, Nombre: Najera, Apellido: pnajera@mail.com, Email: 25
+12:43:34 PM: DEBUG [persona_dao.py:83] Sebastian
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 27
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 28
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 29
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 30
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 31
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 32
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 33
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 34
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 35
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 36
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 37
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 38
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 39
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 40
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 41
+12:43:34 PM: DEBUG [persona_dao.py:83] Lorena
+12:43:34 PM: DEBUG [persona_dao.py:33] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
+12:43:34 PM: DEBUG [persona_dao.py:34] Persona a insertar: Id Persona: None, Nombre: Maria, Apellido: Elena, Email: nena.22@mail.com
+12:43:35 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+12:47:10 PM: DEBUG [persona.py:45] Id Persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+12:47:10 PM: DEBUG [persona.py:49] Id Persona: None, Nombre: Maria, Apellido: Elena, Email: Mebolanos@mail.com
+12:47:10 PM: DEBUG [persona.py:52] Id Persona: 10, Nombre: None, Apellido: None, Email: None
+01:35:32 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x0000023FE5D56AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+01:35:32 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x0000023FE6118E40; closed: 0>
+01:35:32 PM: DEBUG [persona_dao.py:18] b'SELECT * FROM public.dbcrud ORDER BY id_persona'
+01:35:32 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Jean, Nombre: Lara, Apellido: jeanlara@outlook.com, Email: 10
+01:35:32 PM: DEBUG [persona_dao.py:83] Jean
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Fernando, Nombre: Francisco, Apellido: Valencia, Email: 11
+01:35:32 PM: DEBUG [persona_dao.py:83] Fernando
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Miguel, Nombre: Perezoso2, Apellido: jperez2@mail.com, Email: 18
+01:35:32 PM: DEBUG [persona_dao.py:83] Miguel
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Yesica, Nombre: Cantu, Apellido: mcantu@mail.com, Email: 19
+01:35:32 PM: DEBUG [persona_dao.py:83] Yesica
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Nayer, Nombre: Gonzales, Apellido: mgonzales@mail.com, Email: 21
+01:35:32 PM: DEBUG [persona_dao.py:83] Nayer
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Sebastian, Nombre: Najera, Apellido: pnajera@mail.com, Email: 25
+01:35:32 PM: DEBUG [persona_dao.py:83] Sebastian
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 27
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 28
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 29
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 30
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 31
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 32
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 33
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 34
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 35
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 36
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 37
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 38
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 39
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 40
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 41
+01:35:32 PM: DEBUG [persona_dao.py:83] Lorena
+01:35:32 PM: DEBUG [persona_dao.py:33] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
+01:35:32 PM: DEBUG [persona_dao.py:34] Persona a insertar: Id Persona: None, Nombre: Maria, Apellido: Elena, Email: nena.22@mail.com
+01:35:32 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+01:43:40 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x0000026B85116AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+01:43:40 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x0000026B854B8E40; closed: 0>
+01:43:40 PM: DEBUG [persona_dao.py:18] b'SELECT * FROM public.dbcrud ORDER BY id_persona'
+01:43:40 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+01:43:40 PM: DEBUG [persona_dao.py:82] Id Persona: Jean, Nombre: Lara, Apellido: jeanlara@outlook.com, Email: 10
+01:43:40 PM: DEBUG [persona_dao.py:83] Jean
+01:43:40 PM: DEBUG [persona_dao.py:82] Id Persona: Fernando, Nombre: Francisco, Apellido: Valencia, Email: 11
+01:43:40 PM: DEBUG [persona_dao.py:83] Fernando
+01:43:40 PM: DEBUG [persona_dao.py:82] Id Persona: Miguel, Nombre: Perezoso2, Apellido: jperez2@mail.com, Email: 18
+01:43:40 PM: DEBUG [persona_dao.py:83] Miguel
+01:43:40 PM: DEBUG [persona_dao.py:82] Id Persona: Yesica, Nombre: Cantu, Apellido: mcantu@mail.com, Email: 19
+01:43:40 PM: DEBUG [persona_dao.py:83] Yesica
+01:43:40 PM: DEBUG [persona_dao.py:82] Id Persona: Nayer, Nombre: Gonzales, Apellido: mgonzales@mail.com, Email: 21
+01:43:40 PM: DEBUG [persona_dao.py:83] Nayer
+01:43:40 PM: DEBUG [persona_dao.py:82] Id Persona: Sebastian, Nombre: Najera, Apellido: pnajera@mail.com, Email: 25
+01:43:40 PM: DEBUG [persona_dao.py:83] Sebastian
+01:43:40 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 27
+01:43:40 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:40 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 28
+01:43:40 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:40 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 29
+01:43:40 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:40 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 30
+01:43:40 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:40 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 31
+01:43:40 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:40 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 32
+01:43:40 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:40 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 33
+01:43:40 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:41 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 34
+01:43:41 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:41 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 35
+01:43:41 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:41 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 36
+01:43:41 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:41 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 37
+01:43:41 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:41 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 38
+01:43:41 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:41 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 39
+01:43:41 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:41 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 40
+01:43:41 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:41 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 41
+01:43:41 PM: DEBUG [persona_dao.py:83] Lorena
+01:43:41 PM: DEBUG [persona_dao.py:33] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
+01:43:41 PM: DEBUG [persona_dao.py:34] Persona a insertar: Id Persona: None, Nombre: Maria, Apellido: Elena, Email: nena.22@mail.com
+01:43:41 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+01:46:14 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x0000020475AB6AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+01:46:14 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x0000020475EA6E40; closed: 0>
+01:46:14 PM: DEBUG [persona_dao.py:18] b'SELECT * FROM public.dbcrud ORDER BY id_persona'
+01:46:14 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Jean, Nombre: Lara, Apellido: jeanlara@outlook.com, Email: 10
+01:46:15 PM: DEBUG [persona_dao.py:83] Jean
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Fernando, Nombre: Francisco, Apellido: Valencia, Email: 11
+01:46:15 PM: DEBUG [persona_dao.py:83] Fernando
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Miguel, Nombre: Perezoso2, Apellido: jperez2@mail.com, Email: 18
+01:46:15 PM: DEBUG [persona_dao.py:83] Miguel
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Yesica, Nombre: Cantu, Apellido: mcantu@mail.com, Email: 19
+01:46:15 PM: DEBUG [persona_dao.py:83] Yesica
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Nayer, Nombre: Gonzales, Apellido: mgonzales@mail.com, Email: 21
+01:46:15 PM: DEBUG [persona_dao.py:83] Nayer
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Sebastian, Nombre: Najera, Apellido: pnajera@mail.com, Email: 25
+01:46:15 PM: DEBUG [persona_dao.py:83] Sebastian
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 27
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 28
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 29
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 30
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 31
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 32
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 33
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 34
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 35
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 36
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 37
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 38
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 39
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 40
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:46:15 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 41
+01:46:15 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:24 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x0000024F9B036AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+01:48:24 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x0000024F9B41EF20; closed: 0>
+01:48:24 PM: DEBUG [persona_dao.py:18] b'SELECT * FROM public.dbcrud ORDER BY id_persona'
+01:48:24 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Jean, Nombre: Lara, Apellido: jeanlara@outlook.com, Email: 10
+01:48:24 PM: DEBUG [persona_dao.py:83] Jean
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Fernando, Nombre: Francisco, Apellido: Valencia, Email: 11
+01:48:24 PM: DEBUG [persona_dao.py:83] Fernando
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Miguel, Nombre: Perezoso2, Apellido: jperez2@mail.com, Email: 18
+01:48:24 PM: DEBUG [persona_dao.py:83] Miguel
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Yesica, Nombre: Cantu, Apellido: mcantu@mail.com, Email: 19
+01:48:24 PM: DEBUG [persona_dao.py:83] Yesica
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Nayer, Nombre: Gonzales, Apellido: mgonzales@mail.com, Email: 21
+01:48:24 PM: DEBUG [persona_dao.py:83] Nayer
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Sebastian, Nombre: Najera, Apellido: pnajera@mail.com, Email: 25
+01:48:24 PM: DEBUG [persona_dao.py:83] Sebastian
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 27
+01:48:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 28
+01:48:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 29
+01:48:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 30
+01:48:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 31
+01:48:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 32
+01:48:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 33
+01:48:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 34
+01:48:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 35
+01:48:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 36
+01:48:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:25 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 37
+01:48:25 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:25 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 38
+01:48:25 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:25 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 39
+01:48:25 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:25 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 40
+01:48:25 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:25 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 41
+01:48:25 PM: DEBUG [persona_dao.py:83] Lorena
+01:48:25 PM: DEBUG [persona_dao.py:33] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
+01:48:25 PM: DEBUG [persona_dao.py:34] Persona a insertar: Id Persona: None, Nombre: Maria, Apellido: Elena, Email: nena.22@mail.com
+01:48:25 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+01:49:11 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000001AE78DE6AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+01:49:11 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000001AE78FB7E40; closed: 0>
+01:49:11 PM: DEBUG [persona_dao.py:18] b'SELECT * FROM public.dbcrud ORDER BY id_persona'
+01:49:11 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Jean, Nombre: Lara, Apellido: jeanlara@outlook.com, Email: 10
+01:49:11 PM: DEBUG [persona_dao.py:83] Jean
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Fernando, Nombre: Francisco, Apellido: Valencia, Email: 11
+01:49:11 PM: DEBUG [persona_dao.py:83] Fernando
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Miguel, Nombre: Perezoso2, Apellido: jperez2@mail.com, Email: 18
+01:49:11 PM: DEBUG [persona_dao.py:83] Miguel
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Yesica, Nombre: Cantu, Apellido: mcantu@mail.com, Email: 19
+01:49:11 PM: DEBUG [persona_dao.py:83] Yesica
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Nayer, Nombre: Gonzales, Apellido: mgonzales@mail.com, Email: 21
+01:49:11 PM: DEBUG [persona_dao.py:83] Nayer
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Sebastian, Nombre: Najera, Apellido: pnajera@mail.com, Email: 25
+01:49:11 PM: DEBUG [persona_dao.py:83] Sebastian
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 27
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 28
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 29
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 30
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 31
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 32
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 33
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 34
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 35
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 36
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 37
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 38
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 39
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 40
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 41
+01:49:11 PM: DEBUG [persona_dao.py:83] Lorena
+01:49:11 PM: DEBUG [persona_dao.py:67] b'DELETE FROM public.dbcrud WHERE id_persona = %s'
+01:49:11 PM: DEBUG [persona_dao.py:68] Persona a eliminar: Id Persona: 10, Nombre: None, Apellido: None, Email: None
+01:49:12 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+01:54:24 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000001C0E39E6AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+01:54:24 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000001C0E3BB7E40; closed: 0>
+01:54:24 PM: DEBUG [persona_dao.py:18] b'SELECT * FROM public.dbcrud ORDER BY id_persona'
+01:54:24 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Jean, Nombre: Lara, Apellido: jeanlara@outlook.com, Email: 10
+01:54:24 PM: DEBUG [persona_dao.py:83] Jean
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Fernando, Nombre: Francisco, Apellido: Valencia, Email: 11
+01:54:24 PM: DEBUG [persona_dao.py:83] Fernando
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Miguel, Nombre: Perezoso2, Apellido: jperez2@mail.com, Email: 18
+01:54:24 PM: DEBUG [persona_dao.py:83] Miguel
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Yesica, Nombre: Cantu, Apellido: mcantu@mail.com, Email: 19
+01:54:24 PM: DEBUG [persona_dao.py:83] Yesica
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Nayer, Nombre: Gonzales, Apellido: mgonzales@mail.com, Email: 21
+01:54:24 PM: DEBUG [persona_dao.py:83] Nayer
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Sebastian, Nombre: Najera, Apellido: pnajera@mail.com, Email: 25
+01:54:24 PM: DEBUG [persona_dao.py:83] Sebastian
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 27
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 28
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 29
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 30
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 31
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 32
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 33
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 34
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 35
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 36
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 37
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 38
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 39
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 40
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 41
+01:54:24 PM: DEBUG [persona_dao.py:83] Lorena
+01:54:24 PM: DEBUG [persona_dao.py:67] b'DELETE FROM public.dbcrud WHERE id_persona = %s'
+01:54:24 PM: DEBUG [persona_dao.py:68] Persona a eliminar: <class 'persona.Persona'>
+01:54:24 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+01:55:09 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000002A4EC0B6AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+01:55:09 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000002A4EC4A6E40; closed: 0>
+01:55:09 PM: DEBUG [persona_dao.py:18] b'SELECT * FROM public.dbcrud ORDER BY id_persona'
+01:55:09 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Jean, Nombre: Lara, Apellido: jeanlara@outlook.com, Email: 10
+01:55:09 PM: DEBUG [persona_dao.py:83] Jean
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Fernando, Nombre: Francisco, Apellido: Valencia, Email: 11
+01:55:09 PM: DEBUG [persona_dao.py:83] Fernando
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Miguel, Nombre: Perezoso2, Apellido: jperez2@mail.com, Email: 18
+01:55:09 PM: DEBUG [persona_dao.py:83] Miguel
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Yesica, Nombre: Cantu, Apellido: mcantu@mail.com, Email: 19
+01:55:09 PM: DEBUG [persona_dao.py:83] Yesica
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Nayer, Nombre: Gonzales, Apellido: mgonzales@mail.com, Email: 21
+01:55:09 PM: DEBUG [persona_dao.py:83] Nayer
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Sebastian, Nombre: Najera, Apellido: pnajera@mail.com, Email: 25
+01:55:09 PM: DEBUG [persona_dao.py:83] Sebastian
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 27
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 28
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 29
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 30
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 31
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 32
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 33
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 34
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 35
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 36
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 37
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 38
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 39
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 40
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:82] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 41
+01:55:09 PM: DEBUG [persona_dao.py:83] Lorena
+01:55:09 PM: DEBUG [persona_dao.py:67] b'DELETE FROM public.dbcrud WHERE id_persona = %s'
+01:55:09 PM: DEBUG [persona_dao.py:68] Persona a eliminar: Id Persona: 10, Nombre: None, Apellido: None, Email: None
+01:55:09 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+01:56:46 PM: DEBUG [persona.py:45] Id Persona: 1, Nombre: Juan, Apellido: Perez, Email: email
+01:56:46 PM: DEBUG [persona.py:49] Id Persona: %s, Nombre: Maria, Apellido: Elena, Email: Mebolanos@mail.com
+01:56:47 PM: DEBUG [persona.py:52] Id Persona: 10, Nombre: %s, Apellido: %s, Email: %s
