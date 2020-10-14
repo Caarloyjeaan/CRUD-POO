@@ -77,22 +77,22 @@ class PersonaDao:
             Conexion.cerrar()                
     
 if __name__ == '__main__':
-    personas = PersonaDao.seleccionar()    
+    personas = PersonaDao.seleccionar()  
     for persona in personas:
         logger.debug(persona)
         logger.debug(persona.get_id_persona())
     
-    #Insertamos un nuevo registro
-    #persona = Persona(nombre='Maria', apellido='Elena', email='nena.22@mail.com')
-    #personas_insertadas = PersonaDao.insertar(persona)
-    #logger.debug(f'Personas insertados: {personas_insertadas}')
+    #Insertamos un nuevo registro        
+    persona = Persona(nombre='Luis', apellido='Enrique', email='Españadt@yahoo.es')
+    personas_insertadas = PersonaDao.insertar(persona)
+    logger.debug(f'Personas insertados: {personas_insertadas}')
     
     #Actualizar un registro existente
-    #persona = Persona(10,'Carolina','Torres', 'Catatorres@mail.com')
-    #personas_actualizadas = PersonaDao.actualizar(persona)
-    #logger.debug(f'Personas actualizadas: {personas_actualizadas}')
+    persona = Persona(18,'Carlos','Queiroz', 'Carloscolombia@mail.com')
+    personas_actualizadas = PersonaDao.actualizar(persona)
+    logger.debug(f'Personas actualizadas: {personas_actualizadas}')
     
     #eliminar un registro existente
-    persona = Persona(id_persona=10)
+    persona = Persona(id_persona='25')
     personas_eliminadas = PersonaDao.eliminar(persona)
     logger.debug(f'Personas eliminadas: {personas_eliminadas}')
