@@ -1100,3 +1100,21 @@
 02:43:11 PM: DEBUG [persona_dao.py:33] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
 02:43:11 PM: DEBUG [persona_dao.py:34] Persona a insertar: Id Persona: %s, Nombre: Luis, Apellido: Enrique, Email: Españadt@yahoo.es
 02:43:11 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+05:07:29 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x0000014C24ED1AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:07:29 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x0000014C25289F20; closed: 0>
+05:07:29 PM: DEBUG [persona_dao.py:33] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
+05:07:29 PM: DEBUG [persona_dao.py:34] Persona a insertar: Id Persona: Yesica, Nombre: Galeano, Apellido: yesicagaleano@cbit-online.com, Email: %s
+05:07:29 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+05:07:29 PM: DEBUG [persona_dao.py:93] Personas insertados: 1
+05:10:53 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000002A707C76AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:10:53 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000002A708067E40; closed: 0>
+05:10:53 PM: DEBUG [persona_dao.py:33] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
+05:10:53 PM: DEBUG [persona_dao.py:34] Persona a insertar: Id Persona: , Nombre: nombre, Apellido: apellido, Email: email
+05:10:53 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+05:10:53 PM: DEBUG [persona_dao.py:93] Personas insertados: 1
+05:12:27 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000002378F276AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+05:12:27 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000002378F627E40; closed: 0>
+05:12:27 PM: DEBUG [persona_dao.py:33] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
+05:12:27 PM: DEBUG [persona_dao.py:34] Persona a insertar: Id Persona: , Nombre: Yesica , Apellido: Galeano, Email: yesica.cbit@online.com
+05:12:27 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+05:12:27 PM: DEBUG [persona_dao.py:93] Personas insertados: 1

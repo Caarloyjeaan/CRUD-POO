@@ -77,22 +77,29 @@ class PersonaDao:
             Conexion.cerrar()                
     
 if __name__ == '__main__':
-    personas = PersonaDao.seleccionar()  
-    for persona in personas:
-        logger.debug(persona)
-        logger.debug(persona.get_id_persona())
+    #personas = PersonaDao.seleccionar()  
+    #for persona in personas:
+      #  logger.debug(persona)
+      #  logger.debug(persona.get_id_persona())
     
-    #Insertamos un nuevo registro        
-    persona = Persona(nombre='Luis', apellido='Enrique', email='Españadt@yahoo.es')
+    #Insertamos un nuevo registro   
+    nombre = input ("Ingrese nombre: " )   
+    apellido = input ("Ingrese apellido: " )  
+    email = input ("Ingrese email: " )  
+    persona = Persona ("",nombre,apellido,email) 
+    
+    #persona = Persona(nombre='Luis', apellido='Enrique', email='Españadt@yahoo.es')
     personas_insertadas = PersonaDao.insertar(persona)
     logger.debug(f'Personas insertados: {personas_insertadas}')
     
     #Actualizar un registro existente
-    persona = Persona(18,'Carlos','Queiroz', 'Carloscolombia@mail.com')
-    personas_actualizadas = PersonaDao.actualizar(persona)
-    logger.debug(f'Personas actualizadas: {personas_actualizadas}')
+    #persona = Persona(18,'Carlos','Queiroz', 'Carloscolombia@mail.com')
+    #personas_actualizadas = PersonaDao.actualizar(persona)
+    #logger.debug(f'Personas actualizadas: {personas_actualizadas}')
     
     #eliminar un registro existente
-    persona = Persona(id_persona='25')
-    personas_eliminadas = PersonaDao.eliminar(persona)
-    logger.debug(f'Personas eliminadas: {personas_eliminadas}')
+    #persona = Persona(id_persona='45')
+    #personas_eliminadas = PersonaDao.eliminar(persona)
+    #logger.debug(f'Personas eliminadas: {personas_eliminadas}')
+
+
