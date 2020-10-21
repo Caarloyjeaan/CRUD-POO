@@ -1118,3 +1118,169 @@
 05:12:27 PM: DEBUG [persona_dao.py:34] Persona a insertar: Id Persona: , Nombre: Yesica , Apellido: Galeano, Email: yesica.cbit@online.com
 05:12:27 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
 05:12:27 PM: DEBUG [persona_dao.py:93] Personas insertados: 1
+10:16:55 AM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x0000023E68661AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+10:16:55 AM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x0000023E68A47F20; closed: 0>
+10:16:55 AM: ERROR [insertar.py:27] Excepción al insertar persona:type object 'PersonaDao' has no attribute '_PersonaDao__INSERTAR'
+10:16:55 AM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+10:16:55 AM: DEBUG [insertar.py:46] Personas insertados: None
+10:18:02 AM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000001E88EC15AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+10:18:02 AM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000001E88EDE6E40; closed: 0>
+10:18:02 AM: DEBUG [insertar.py:19] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
+10:18:02 AM: DEBUG [insertar.py:20] Persona a insertar: Id Persona: , Nombre: Jordan, Apellido: Alexis, Email: jordanalex@cbit.oneline.com
+10:18:02 AM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+10:18:02 AM: DEBUG [insertar.py:46] Personas insertados: 1
+10:24:40 AM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x0000020752DB5AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+10:24:40 AM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x0000020752F87D60; closed: 0>
+10:24:40 AM: DEBUG [eliminar.py:19] b'DELETE FROM public.dbcrud WHERE id_persona = %s'
+10:24:40 AM: DEBUG [eliminar.py:20] Persona a eliminar: Id Persona: , Nombre: %s, Apellido: %s, Email: %s
+10:24:40 AM: ERROR [eliminar.py:27] Excepción al eliminar persona:la sintaxis de entrada no es válida para integer: «»
+LINE 1: DELETE FROM public.dbcrud WHERE id_persona = ''
+                                                     ^
+
+10:24:40 AM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+10:24:40 AM: DEBUG [eliminar.py:41] Personas eliminadas: None
+10:25:24 AM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x0000025E6FF15AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+10:25:24 AM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x0000025E702E7D60; closed: 0>
+10:25:24 AM: DEBUG [eliminar.py:19] b'DELETE FROM public.dbcrud WHERE id_persona = %s'
+10:25:24 AM: DEBUG [eliminar.py:20] Persona a eliminar: Id Persona: 27, Nombre: %s, Apellido: %s, Email: %s
+10:25:24 AM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+10:25:24 AM: DEBUG [eliminar.py:41] Personas eliminadas: 1
+10:29:46 AM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000001AF74CD5AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+10:29:46 AM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000001AF750A7D60; closed: 0>
+10:29:46 AM: DEBUG [seleccionar.py:15] b'SELECT * FROM public.dbcrud ORDER BY id_persona'
+10:29:46 AM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+10:29:46 AM: DEBUG [seleccionar.py:28] Id Persona: Carolina, Nombre: Torres, Apellido: Catatorres@mail.com, Email: 10
+10:29:46 AM: DEBUG [seleccionar.py:29] Carolina
+10:29:46 AM: DEBUG [seleccionar.py:28] Id Persona: Miguel, Nombre: Perezoso2, Apellido: jperez2@mail.com, Email: 18
+10:29:46 AM: DEBUG [seleccionar.py:29] Miguel
+10:29:46 AM: DEBUG [seleccionar.py:28] Id Persona: Yesica, Nombre: Cantu, Apellido: mcantu@mail.com, Email: 19
+10:29:46 AM: DEBUG [seleccionar.py:29] Yesica
+10:29:46 AM: DEBUG [seleccionar.py:28] Id Persona: Nayer, Nombre: Gonzales, Apellido: mgonzales@mail.com, Email: 21
+10:29:46 AM: DEBUG [seleccionar.py:29] Nayer
+10:29:46 AM: DEBUG [seleccionar.py:28] Id Persona: Sebastian, Nombre: Najera, Apellido: pnajera@mail.com, Email: 25
+10:29:46 AM: DEBUG [seleccionar.py:29] Sebastian
+10:29:46 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 28
+10:29:46 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:46 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 29
+10:29:46 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:46 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 30
+10:29:46 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:46 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 31
+10:29:46 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:46 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 32
+10:29:46 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:46 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 33
+10:29:46 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:47 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 34
+10:29:47 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:47 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 35
+10:29:47 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:47 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 36
+10:29:47 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:47 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 37
+10:29:47 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:47 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 38
+10:29:47 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:47 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 39
+10:29:47 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:47 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 40
+10:29:47 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:47 AM: DEBUG [seleccionar.py:28] Id Persona: Lorena, Nombre: Rozo, Apellido: Lorenarozo@mail.com, Email: 41
+10:29:47 AM: DEBUG [seleccionar.py:29] Lorena
+10:29:47 AM: DEBUG [seleccionar.py:28] Id Persona: %s, Nombre: %s, Apellido: %s, Email: 42
+10:29:47 AM: DEBUG [seleccionar.py:29] %s
+10:29:47 AM: DEBUG [seleccionar.py:28] Id Persona: Maria, Nombre: Bolaños, Apellido: Mebolanos@yahoo.es, Email: 43
+10:29:47 AM: DEBUG [seleccionar.py:29] Maria
+10:29:47 AM: DEBUG [seleccionar.py:28] Id Persona: Marcos, Nombre: Cantu, Apellido: mcantu@mail.com, Email: 44
+10:29:47 AM: DEBUG [seleccionar.py:29] Marcos
+10:29:47 AM: DEBUG [seleccionar.py:28] Id Persona: Angel, Nombre: Quintana, Apellido: aquintana@mail.com, Email: 45
+10:29:48 AM: DEBUG [seleccionar.py:29] Angel
+10:29:48 AM: DEBUG [seleccionar.py:28] Id Persona: Maria, Nombre: Gonzales, Apellido: mgonzales@mail.com, Email: 46
+10:29:48 AM: DEBUG [seleccionar.py:29] Maria
+10:29:48 AM: DEBUG [seleccionar.py:28] Id Persona: Luis, Nombre: Enrique, Apellido: Españadt@yahoo.es, Email: 47
+10:29:48 AM: DEBUG [seleccionar.py:29] Luis
+10:29:48 AM: DEBUG [seleccionar.py:28] Id Persona: Luis, Nombre: Enrique, Apellido: Españadt@yahoo.es, Email: 48
+10:29:48 AM: DEBUG [seleccionar.py:29] Luis
+10:29:48 AM: DEBUG [seleccionar.py:28] Id Persona: Carlos, Nombre: Lara, Apellido: clara@mail.com, Email: 49
+10:29:48 AM: DEBUG [seleccionar.py:29] Carlos
+10:29:48 AM: DEBUG [seleccionar.py:28] Id Persona: Galeano, Nombre: yesicagaleano@cbit-online.com, Apellido: %s, Email: 50
+10:29:48 AM: DEBUG [seleccionar.py:29] Galeano
+10:29:48 AM: DEBUG [seleccionar.py:28] Id Persona: nombre, Nombre: apellido, Apellido: email, Email: 51
+10:29:48 AM: DEBUG [seleccionar.py:29] nombre
+10:29:48 AM: DEBUG [seleccionar.py:28] Id Persona: Yesica , Nombre: Galeano, Apellido: yesica.cbit@online.com, Email: 52
+10:29:48 AM: DEBUG [seleccionar.py:29] Yesica 
+10:29:48 AM: DEBUG [seleccionar.py:28] Id Persona: Jordan, Nombre: Alexis, Apellido: jordanalex@cbit.oneline.com, Email: 53
+10:29:48 AM: DEBUG [seleccionar.py:29] Jordan
+10:34:26 AM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000002A493FB6AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+10:34:26 AM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000002A494187D60; closed: 0>
+10:34:26 AM: DEBUG [eliminar.py:19] b'DELETE FROM public.dbcrud WHERE id_persona = %s'
+10:34:26 AM: DEBUG [eliminar.py:20] Persona a eliminar: Id Persona: 28,29,30,31,32,33,34,35,36,37, Nombre: %s, Apellido: %s, Email: %s
+10:34:26 AM: ERROR [eliminar.py:27] Excepción al eliminar persona:la sintaxis de entrada no es válida para integer: «28,29,30,31,32,33,34,35,36,37»
+LINE 1: DELETE FROM public.dbcrud WHERE id_persona = '28,29,30,31,32...
+                                                     ^
+
+10:34:26 AM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+10:34:26 AM: DEBUG [eliminar.py:36] Personas eliminadas: None
+10:37:45 AM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000001E6970B6AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+10:37:45 AM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000001E697467D60; closed: 0>
+10:37:45 AM: DEBUG [actualizar.py:19] b'UPDATE public.dbcrud SET nombre=%s, apellido=%s, email=%s WHERE id_persona=%s'
+10:37:45 AM: DEBUG [actualizar.py:20] Persona a actualizar: Id Persona: 28, Nombre: Luigy, Apellido: Lara, Email: bilis.9@hotmail.com
+10:37:45 AM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+10:37:45 AM: DEBUG [actualizar.py:40] Personas actualizadas: 1
+10:40:02 AM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x00000240C13C6AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+10:40:02 AM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x00000240C1596E40; closed: 0>
+10:40:02 AM: DEBUG [insertar.py:19] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
+10:40:02 AM: DEBUG [insertar.py:20] Persona a insertar: Id Persona: , Nombre: Nicolas, Apellido: Gomez, Email: nicogomez@gmail.com
+10:40:02 AM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+10:40:02 AM: DEBUG [insertar.py:39] Personas insertados: 1
+11:09:51 AM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x0000013904C16AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+11:09:51 AM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x0000013904DE6E40; closed: 0>
+11:09:51 AM: DEBUG [insertar.py:19] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
+11:09:51 AM: DEBUG [insertar.py:20] Persona a insertar: Id Persona: , Nombre: Ethan, Apellido: Daniel, Email: Ethan@daniel.com
+11:09:51 AM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+11:09:51 AM: DEBUG [insertar.py:39] Personas insertados: 1
+06:49:06 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000001DF0EAD5AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+06:49:06 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000001DF0EEA6E40; closed: 0>
+06:49:06 PM: DEBUG [insertar.py:19] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,)'
+06:49:06 PM: DEBUG [insertar.py:20] Persona a insertar: Id Persona: , Nombre: Jean, Apellido: Carlo, Email: jeancarlol@outlook.com
+06:49:06 PM: ERROR [insertar.py:27] Excepción al insertar persona:tuple index out of range
+06:49:06 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+06:49:06 PM: DEBUG [insertar.py:39] Personas insertados: None
+06:52:49 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x0000022208316AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+06:52:49 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x00000222086B6E40; closed: 0>
+06:52:49 PM: DEBUG [insertar.py:19] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES((%s,%s,%s),(%s,%s,%s),(%s,%s,%s))'
+06:52:49 PM: DEBUG [insertar.py:20] Persona a insertar: Id Persona: , Nombre: Jean, Apellido: Carlo, Email: jeam@yahoo.com
+06:52:49 PM: ERROR [insertar.py:27] Excepción al insertar persona:tuple index out of range
+06:52:49 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+06:52:49 PM: DEBUG [insertar.py:39] Personas insertados: None
+06:59:37 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x0000020EED2B6AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+06:59:37 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x0000020EED666E40; closed: 0>
+06:59:37 PM: DEBUG [insertar.py:19] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES((%s,%s,%s),(%s,%s,%s),(%s,%s,%s))'
+06:59:37 PM: DEBUG [insertar.py:20] Persona a insertar: Id Persona: , Nombre: Jean, Apellido: Carlo, Email: jean@carlo.com
+06:59:37 PM: ERROR [insertar.py:27] Excepción al insertar persona:tuple index out of range
+06:59:37 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+06:59:37 PM: DEBUG [insertar.py:40] Personas insertados: None
+08:16:26 PM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000001AAE33A6AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+08:16:26 PM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000001AAE3776E40; closed: 0>
+08:16:26 PM: DEBUG [insertar.py:19] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES((%s,%s,%s),(%s,%s,%s),(%s,%s,%s))'
+08:16:26 PM: DEBUG [insertar.py:20] Persona a insertar: Id Persona: , Nombre: ('Jean',), Apellido: Carlo, Email: Lara
+08:16:26 PM: ERROR [insertar.py:27] Excepción al insertar persona:tuple index out of range
+08:16:26 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+08:16:26 PM: DEBUG [insertar.py:40] Personas insertados: None
+08:17:00 PM: DEBUG [insertar.py:19] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES((%s,%s,%s),(%s,%s,%s),(%s,%s,%s))'
+08:17:00 PM: DEBUG [insertar.py:20] Persona a insertar: Id Persona: , Nombre: ('jean ',), Apellido: carlo, Email: lara
+08:17:00 PM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+08:02:29 AM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000001FD29A26AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+08:02:30 AM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000001FD29E26E40; closed: 0>
+08:02:30 AM: DEBUG [insertar.py:19] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
+08:02:30 AM: DEBUG [insertar.py:20] Persona a insertar: Id Persona: , Nombre: & C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/python.exe c:/Users/Admin/Desktop/CRUD-POO/insertar.py, Apellido: & C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/python.exe c:/Users/Admin/Desktop/CRUD-POO/insertar.py, Email: & C:/Users/Admin/AppData/Local/Microsoft/WindowsApps/python.exe c:/Users/Admin/Desktop/CRUD-POO/insertar.py
+08:02:30 AM: ERROR [insertar.py:27] Excepción al insertar persona:el valor es demasiado largo para el tipo character varying(30)
+
+08:02:30 AM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+08:02:30 AM: DEBUG [insertar.py:39] Personas insertados: None
+08:02:55 AM: DEBUG [conexion.py:23] Conexión exitosa: <connection object at 0x000001F51CE75AE0; dsn: 'user=postgres password=xxx dbname=postgres host=127.0.0.1 port=5432', closed: 0>
+08:02:55 AM: DEBUG [conexion.py:36] Se abrio el cursor con éxito: <cursor object at 0x000001F51D266E40; closed: 0>
+08:02:55 AM: DEBUG [insertar.py:19] b'INSERT INTO public.dbcrud(nombre, apellido, email) VALUES(%s,%s,%s)'
+08:02:55 AM: DEBUG [insertar.py:20] Persona a insertar: Id Persona: , Nombre: Angie, Apellido: Vanesa, Email: angie.vanesa@gmail.com
+08:02:55 AM: DEBUG [conexion.py:56] Se han cerrado los objetos de conexión y cursor
+08:02:55 AM: DEBUG [insertar.py:39] Personas insertados: 1

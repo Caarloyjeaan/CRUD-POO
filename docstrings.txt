@@ -1,0 +1,63 @@
+Las clases proveen una forma de empaquetar datos y funcionalidad juntos. Al crear una nueva clase, se crea un nuevo tipo de objeto, permitiendo crear nuevas instancias de ese tipo. Las instancias de clase también pueden tener métodos.
+
+
+-INSTANCIA: un objeto es una instancia de una clase. Esto es, un miembro de una clase que tiene atributos en lugar de variables.​
+​
+Podríamos pensar en "Casa" como una clase y en un chalet como una instancia de esta.​
+​
+-ATRIBUTO: es con frecuencia y en general una característica de una propiedad​
+​
+-PROPIEDAD: (Nombre = "estoesunapropiedad").​
+
+El mecanismo de la herencia de clases permite múltiples clases base.​
+​
+-HERENCIA: Crear nuevas clases partiendo de una clase o de una jerarquía de clases preexistente evitando con ello el rediseño, la modificación y verificación. ​
+
+Un método puede llamar al método de la clase base con el mismo nombre. Los objetos pueden tener una cantidad arbitraria de datos de cualquier tipo.​
+
+-METODO: es una subrutina cuyo código es definido en una clase y puede pertenecer tanto a una clase como un objeto. Se crean en tiempo de ejecución, y pueden modificarse luego de la creación.
+
+
+
+_______________________________________________________________________________________________________________________________________________________________________
+
+
+
+Método __init__​
+
+
+"__init__" es un método que se guarda en las clases de Python. Se llama constructor en terminología orientada a objetos. Este método se llama cuando se crea un objeto a partir de una clase y permite que la clase inicialice los atributos de la clase.
+
+
+Self​
+
+La palabra "self" se utiliza para representar la instancia de una clase. Al usar la palabra clave "self" accedemos a los atributos y métodos de la clase en Python.
+
+
+__str__​
+
+
+Es una práctica recomendada crear una representación de los objetos en texto.​
+Para mostrar objetos, Python indica que hay que agregarle a la clase un método especial, llamado __str__ que debe devolver una cadena de caracteres con lo que queremos mostrar.
+
+
+get - set 
+
+
+Los métodos get y set, son simples métodos que usamos en las clases para mostrar (get) o modificar (set) el valor de un atributo.​
+Es recomendable sólo para aquellos atributos en los que sea necesario algún tipo de validación anterior a establecer, obtener o borrar un valor.
+
+
+funciones
+
+
+Cuando una definición de clase se finaliza normalmente se crea un objeto clase. ​
+Los objetos clase soportan dos tipos de operaciones: hacer referencia a atributos e instanciación.
+
+
+logging 
+
+
+Basicamente el logging de Python registra errores de código simples y genera un mensaje. ​
+Puede ejecutar mogrify()con los mismos argumentos que usaría execute()y el resultado será el esperado:​
+El logging de Python es una herramienta útil para prevenir errores, controlar los ataques de piratas informáticos o, simplemente, llevar a cabo análisis.
