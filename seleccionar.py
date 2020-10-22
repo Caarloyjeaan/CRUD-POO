@@ -2,6 +2,7 @@ from persona import Persona
 from conexion import Conexion
 from logger_base import logger
 
+#Las clases proveen una forma de empaquetar datos y funcionalidad juntos. 
 class PersonaDao:
     '''
     DAO (Data Access Object) 
@@ -10,6 +11,7 @@ class PersonaDao:
     __SELECCIONAR = 'SELECT * FROM public.dbcrud ORDER BY id_persona'
     
     @classmethod
+    #Las funciones en Python son creadas mediante la sentencia def:
     def seleccionar(cls):
         cursor = Conexion.obtenerCursor()
         logger.debug(cursor.mogrify(cls.__SELECCIONAR))
@@ -23,6 +25,8 @@ class PersonaDao:
         return personas               
     
 if __name__ == '__main__':
+
+     #Aqui podemos seleccionar un registro
     personas = PersonaDao.seleccionar()  
     for persona in personas:
         logger.debug(persona)
